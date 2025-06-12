@@ -81,7 +81,7 @@ init 函数需要两个参数 container和rtcOption。
 | reRegistryPhoneTimes | number | 可选 | 尝试重新连接 sip 服务次数，默认无限制。 |
 | deviceIds | { cameraId?: string; microphoneId?: string; speakerId:string; volume:number } | 可选 | 指定音视频输入设备 id，包含摄像头 id 、麦克风 id、扬声器 id；volume为通话、来电、拨号盘音量，音量范围0-1直接的浮点数，默认为0.6。 |
 | incomingOption | { style?: React.CSSProperties; class?: string;  } | 可选 | 调整Incoming组件样式 |
-| dialPanelOption | {  style?: React.CSSProperties; class?: string; } | 可选 | 调整DialPanel组件样式 |
+| dialPanelOption | {  style?: React.CSSProperties; class?: string; hideVideoBtn?: boolean } | 可选 | 调整DialPanel组件样式。`hideVideoBtn`用于控制视频按钮的显示与隐藏，默认false。 |
 | sessionOption | [SessionOption](#session-option) | 可选 | 调整通话窗口组件位置和尺寸 |
 | hiddenIncomingComponent | boolean | 可选 | 隐藏来电弹屏组件 |
 | hiddenDialPanelComponent | boolean | 可选 | 隐藏拨号盘组件 |

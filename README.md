@@ -84,7 +84,7 @@ The `init` function requires two parameters:
 | reRegistryPhoneTimes | number | No | Define the number of attempts to reconnect to the SIP service. By default, it is unlimited. |
 | deviceIds | { cameraId?: string; microphoneId?: string; speakerId:string; volume:number } | No | Specify the IDs of the audio and video input devices, including the camera ID, microphone ID, and speaker ID.<br />Volume refers to the volume level for calls, incoming call ringtones, and keypad tones, ranging from 0 to 1. The default value is 0.6. |
 | incomingOption | { style?: React.CSSProperties; class?: string;  } | No | Adjust the styling of the 'incoming call component'. |
-| dialPanelOption | {  style?: React.CSSProperties; class?: string; } | No | Adjust the styling of the 'dial panel component'. |
+| dialPanelOption | {  style?: React.CSSProperties; class?: string; hideVideoBtn?: boolean } | No | Adjust the styling of the 'dial panel component'. `hideVideoBtn` determines whether to hide the video button, default is false. |
 | sessionOption | [SessionOption](#session-option) | No | Adjust the position and size of the 'call window component'. |
 | hiddenIncomingComponent | boolean | No | Hide the 'incoming call component'. |
 | hiddenDialPanelComponent | boolean | No | Hide the 'dial panel component'. |
