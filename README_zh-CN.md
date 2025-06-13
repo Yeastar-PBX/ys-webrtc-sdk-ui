@@ -118,7 +118,8 @@ type SessionOption = {
       "dial_panel.input.placeholder": "Please input number", // "输入号码" 提示文案
       "dial_panel.tip.connect_failed": "Failed to connect to server, you cannot initiate or answer a call. Trying to reconnect to the server.", //服务器连接失败提示文案
       "incoming.btn.hang_up": "Hang up", // "挂断通话" 按钮文案
-      "incoming.btn.audio": "Audio", // 选择 "语音通话" 按钮文案
+      "incoming.btn.video": "Video", // 来电弹屏 "视频通话" 按钮文案
+      "incoming.btn.audio": "Audio", // 来电弹屏 "语音通话" 按钮文案
       "session.calling": "Calling...", // "呼叫中" 文案
       "session.ringing": "Ringing...", // "对方振铃中" 文案
       "session.talking": "Talking...", // "通话中" 文案
@@ -127,15 +128,19 @@ type SessionOption = {
       "session.new_call": "New call", // "新呼叫" 文案
       "session.record": "Record", // "录音" 文案
       "session.mute": "Mute", // "静音通话" 文案
+      "session.video": "Video", // "视频通话" 文案
       "session.hold": "Hold", // "保持通话" 文案
       "session.resume": "Resume", // "恢复通话" 文案
       "session.dialpad": "Dialpad", // "拨号键盘" 文案
       "session.transfer": "Transfer", // "转接通话" 文案
-	    "session.attended_transfer": "Attended Transfer", // "咨询转接" 文案
+	  "session.attended_transfer": "Attended Transfer", // "咨询转接" 文案
       "session.blind_transfer": "Blind Transfer", // "盲转接" 文案
+      "session.modal.change_to_video.title": "Request", // "请求" 切换至视频弹框标题文案
+      "session.modal.change_to_video.content": "{0} invites you switch to video call. Do you accept?", // "请求切换至视频通话" 弹框内容文案，"{0}" 为占位符，表示邀请者的名称
       "session.error.client_error": "Client Error: {0}", // "客户端异常" 文案。"{0}" 为占位符
       "session.tip.recording": "Recording the Audio...", // "通话录音中" 文案
       "session.tip.pause": "The recording is paused.", // "通话录音已暂停" 文案
+      "session.tip.can_no_use_video": "Unlock this feature with Ultimate Plan.", // "升级服务以解锁此功能" 文案
       "error.code_200": "Unknown Error.", // "未知错误" 提示文案
       "error.code_202": "No available communication device found.(no permissions)", // "无权获取通话设备" 提示文案
       "error.code_205": "Call failed. Cannot process more new calls now.", // "通话失败 (已达最大通话数)" 提示文案
@@ -146,6 +151,6 @@ type SessionOption = {
       "error.code_210": "Operation failed with pending calls.", // "有待处理来电，操作失败" 提示文案
       "error.code_211": "Answer failed", // "接听来电失败" 提示文案
       "error.code_290": "No available microphone found.", // "无可用的麦克风" 提示文案
-	    "error.code_291": "No available camera found." // "无可用的摄像头" 提示文案
+	  "error.code_291": "No available camera found." // "无可用的摄像头" 提示文案
 	}
 	```
