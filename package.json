@@ -1,6 +1,6 @@
 {
   "name": "ys-webrtc-sdk-ui",
-  "version": "1.1.0-alpha.4",
+  "version": "1.1.0",
   "description": "Yeastar WebRTC UI for P-Series PBX.",
   "main": "./lib/ys-webrtc-sdk-ui.js",
   "scripts": {
